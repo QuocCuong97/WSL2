@@ -28,3 +28,18 @@
     cuongnq@CUOLAP:~$ explorer.exe .
     ```
     <img src=https://i.imgur.com/sbyUCn4.png>
+
+- Cài đặt **WinKex** :
+    ```
+    sudo apt install -y kali-win-kex
+    ```
+    - Sử dụng **WinKex** :
+        ```
+        kex
+        ```
+    > Tham khảo cách sử dụng **WinKex** : https://www.kali.org/docs/wsl/win-kex/
+
+- Cài đặt **Metasploit** :
+    ```
+    sudo apt install metasploit-framework
+    ```
