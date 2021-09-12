@@ -11,6 +11,10 @@
     ```powershell
     wsl --set-version Ubuntu-20.04 2
     ```
+- Set distro mặc định (khi cài nhiều distro) :
+    ```powershell
+    wsl --setdefault Ubuntu-20.04
+    ```
 - Show các instance WSL đã cài đặt trên máy :
     ```powershell
     wsl -l -v
@@ -40,6 +44,11 @@
     > Tham khảo cách sử dụng **WinKex** : https://www.kali.org/docs/wsl/win-kex/
 
 - Cài đặt **Metasploit** :
-    ```
+    ```bash
     sudo apt install metasploit-framework
     ```
+
+
+
+# WSLG
+- Cài đặt **NVIDIA GPU driver for WSL** tại link https://developer.nvidia.com/cuda/wsl/download
